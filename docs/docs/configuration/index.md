@@ -70,10 +70,10 @@ cameras:
 
 ## Optional
 
-### `clips`
+### `save_clips`
 
 ```yaml
-clips:
+save_clips:
   # Optional: Maximum length of time to retain video during long events. (default: shown below)
   # NOTE: If an object is being tracked for longer than this amount of time, the cache
   #       will begin to expire and the resulting clip will be the last x seconds of the event.
